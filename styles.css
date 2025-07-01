@@ -1,8 +1,68 @@
-.roboto {
+body  {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+.post {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 70px;
+  background: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.post-header-left {
+  display: flex;
+}
+
+.post-header-userProfile {
+  margin-right: 8px;
+    img {
+        width: autopx;
+        height: 30px;
+        /* border-radius: 50%; */   /* Descomentar para dejar la imagen circular, déjala cuadrada para poder colocarla bien */
+    }
+}
+
+.post-header-upload p {
+    margin: 0;
+    font-size: 16px;
+
+    /* p.post-header-upload-when {
+        font-size: 14px;
+        color: gray;
+    } */  /* Preguntar si es tema de especificidad */
+}
+.post-image {
+  img {
+          width: 500px;
+          height: auto;
+      }
+}
+
+.post-actions-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.post-body{
+  margin-top: 10px;
+  padding-left: 8px;
 }
