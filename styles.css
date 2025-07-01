@@ -90,3 +90,13 @@ body  {
 .post-body{
   padding-left: 8px;
 }
+
+#more {
+  display: none;
+}
+
+#myBtn {
+  background-color: whitesmoke;
+  color: gray;
+  border: none;
+}
