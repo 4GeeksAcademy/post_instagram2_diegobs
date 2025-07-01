@@ -23,7 +23,6 @@ body  {
     justify-content: space-between; 
     align-items: center;
     font-size: 30px;
-    margin-bottom: 10px;
 }
 
 .post-header-left {
@@ -31,22 +30,40 @@ body  {
 }
 
 .post-header-userProfile {
-  margin-right: 8px;
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+      margin-bottom: 5px;;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      background: conic-gradient(rgb(39, 40, 134), rgb(68, 134, 233), rgb(171, 81, 223), rgb(245, 59, 214), rgb(39, 40, 134));
+
     img {
-        width: autopx;
-        height: 30px;
-        /* border-radius: 50%; */   /* Descomentar para dejar la imagen circular, déjala cuadrada para poder colocarla bien */
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: black;
+      padding: 2px;
     }
 }
 
 .post-header-upload p {
     margin: 0;
+    margin-top: 2px;
     font-size: 16px;
 
     /* p.post-header-upload-when {
         font-size: 14px;
         color: gray;
     } */  /* Preguntar si es tema de especificidad */
+}
+
+.post-header-menuIcon{
+    font-size: 20px;
+    margin-right: 12px;
 }
 .post-image {
   img {
@@ -60,9 +77,16 @@ body  {
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+
+    .post-actions{
+      font-size: 25px;;
+    }
+}
+
+.post-bookmark {
+  font-size: 25px;
 }
 
 .post-body{
-  margin-top: 10px;
   padding-left: 8px;
 }
